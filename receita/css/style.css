@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&disp lay=swap');
+@import url('fonts.css');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+}
+main{
+    padding: 5px;
+    width: 900px;
+    margin-inline: auto;
+}
+.nome-receita{
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'bangers';
+}
+.div-img{
+    text-align: center;
+    margin-top: 10px;
+}
+.img{
+    max-width: 600px;
+}
