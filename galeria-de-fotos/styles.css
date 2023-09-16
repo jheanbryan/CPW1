@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    background-color: black;
+    margin: 5px;
+    flex: 25%;
+}
+img{
+    max-width: 300px;
+    width: 100%
+}
