@@ -63,12 +63,15 @@ header {
     transform: translate(-50%, -50%);
     color: #fff;
     width: 100%;
+    animation: opacity 3s;
+
 }
 
 #hero-text h1 {
     text-align: center;
     font-family: "regular";
     font-size: 62px;
+    animation: float infinite;
 }
 
 #hero-text p {
@@ -104,6 +107,8 @@ header {
 
 .product {
     width: 30%;
+    animation: float 1.5s infinite;
+    transition: 0.5s;
 }
 
 .know-more {
