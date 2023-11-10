@@ -107,7 +107,7 @@ header {
 
 .product {
     width: 30%;
-    animation: float 1.5s infinite;
+    animation: float 0.5s infinite;
     transition: 0.5s;
 }
 
