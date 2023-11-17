@@ -12,3 +12,15 @@
         transform: translateY(-10%);
     }
 }
+
+@keyframes scale {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+  

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../css/header-footer.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="../css/keyframes.css">n
 
         <!--Open Graph-->
         <meta property="og:title" content="TSI Earphones - Produtos" />
@@ -29,64 +30,74 @@
         <main>
             <h2 class="title-products">Produtos</h2>
             <section class="container-produtos">
-                <div class="produto">
-                    <div class="container-img">
-                        <img src="../img/products/chargerApple.png" alt="" class="img-product reduce">
+                <a href="#carregador">
+                    <div class="produto">
+                        <div class="container-img">
+                            <img src="../img/products/chargerApple.png" alt="" class="img-product reduce">
+                        </div>
+                        <div class="name-and-value">
+                            <h2 class="product-name">Carregador Apple</h2>
+                            <span class="product-value">R$ 100,00</span>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
                     </div>
-                    <div class="name-and-value">
-                        <h2 class="product-name">Carregador Apple</h2>
-                        <span class="product-value">R$ 100,00</span>
-                    </div>
-                    <button class="btn-comprar">Comprar</button>
-                </div>
+                </a>
 
-                <div class="produto">
-                    <div class="container-img">
-                        <img src="../img/products/ipadApple.png" alt="" class="img-product">
+                <a href="#ipad">
+                    <div class="produto">
+                        <div class="container-img">
+                            <img src="../img/products/ipadApple.png" alt="" class="img-product">
+                        </div>
+                        <div class="name-and-value">
+                            <h2 class="product-name">Ipad</h2>
+                            <span class="product-value">R$ 5.000,00</span>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
                     </div>
-                    <div class="name-and-value">
-                        <h2 class="product-name">Ipad</h2>
-                        <span class="product-value">R$ 5.000,00</span>
-                    </div>
-                    <button class="btn-comprar">Comprar</button>
-                </div>
+                </a>
 
-                <div class="produto">
-                    <div class="container-img">
-                        <img src="../img/products/iphoneApple.png" alt="" class="img-product">
+                <a href="#iphone">
+                    <div class="produto">
+                        <div class="container-img">
+                            <img src="../img/products/iphoneApple.png" alt="" class="img-product">
+                        </div>
+                        <div class="name-and-value">
+                            <h2 class="product-name">Iphone 13</h2>
+                            <span class="product-value">R$ 10.000,00</span>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
                     </div>
-                    <div class="name-and-value">
-                        <h2 class="product-name">Iphone 13</h2>
-                        <span class="product-value">R$ 10.000,00</span>
-                    </div>
-                    <button class="btn-comprar">Comprar</button>
-                </div>
+                </a>
 
-                <div class="produto">
-                    <div class="container-img">
-                        <img src="../img/products/noteApple.png" alt="" class="img-product">
+                <a href="#macbook">
+                    <div class="produto">
+                        <div class="container-img">
+                            <img src="../img/products/noteApple.png" alt="" class="img-product">
+                        </div>
+                        <div class="name-and-value">
+                            <h2 class="product-name">Macbook</h2>
+                            <span class="product-value">R$ 14.000,00</span>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
                     </div>
-                    <div class="name-and-value">
-                        <h2 class="product-name">Macbook</h2>
-                        <span class="product-value">R$ 14.000,00</span>
-                    </div>
-                    <button class="btn-comprar">Comprar</button>
-                </div>
+                </a>
 
-                <div class="produto">
-                    <div class="container-img">
-                        <img src="../img/products/watchApple.png" alt="" class="img-product">
+                <a href="#apple-wacth">
+                    <div class="produto">
+                        <div class="container-img">
+                            <img src="../img/products/watchApple.png" alt="" class="img-product">
+                        </div>
+                        <div class="name-and-value">
+                            <h2 class="product-name">Apple Watch</h2>
+                            <span class="product-value">R$ 6.000,99</span>
+                        </div>
+                        <button class="btn-comprar">Comprar</button>
                     </div>
-                    <div class="name-and-value">
-                        <h2 class="product-name">Apple Watch</h2>
-                        <span class="product-value">R$ 6.000,99</span>
-                    </div>
-                    <button class="btn-comprar">Comprar</button>
-                </div>
+                </a>
             </section>
 
             <section class="container-info-produto">
-                <div class="subcontainer-black">
+                <div class="subcontainer-black" id="carregador">
                     <div class="produto-info">
                         <h2 class="product-name-info white-text">Carregador de Iphone</h2>
                         <p class="description-produto white-text">
@@ -99,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="subcontainer-white">
+                <div class="subcontainer-white" id="ipad">
                     <div class="produto-info">
                         <h2 class="product-name-info black-text">Ipad</h2>
                         <p class="description-produto black-text">
@@ -112,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="subcontainer-black">
+                <div class="subcontainer-black" id="iphone">
                     <div class="produto-info">
                         <h2 class="product-name-info white-text">Iphone 13</h2>
                         <p class="description-produto white-text">
@@ -125,7 +136,7 @@
                     </div>
                 </div>
        
-                <div class="subcontainer-white">
+                <div class="subcontainer-white" id="macbook">
                     <div class="produto-info">
                         <h2 class="product-name-info black-text">Macbook</h2>
                         <p class="description-produto black-text">
@@ -138,7 +149,7 @@
                     </div>
                 </div>
                        
-                <div class="subcontainer-black">
+                <div class="subcontainer-black" id="apple-wacth">
                     <div class="produto-info">
                         <h2 class="product-name-info white-text">Apple Watch</h2>
                         <p class="description-produto white-text">

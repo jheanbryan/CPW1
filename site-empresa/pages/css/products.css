@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+    scroll-margin: 58px;
+}
 :root {
     --black-bg: radial-gradient(#000, #222111);
     --white-bg: #fff; 
@@ -9,6 +13,9 @@ main{
     font-family: 'regular';
     text-align: center;
 }
+a{
+    color: #000000;
+}
 .container-produtos{
     display: flex;
     align-items: stretch;
@@ -16,6 +23,7 @@ main{
     gap: 25px;
     flex-wrap: wrap;
     margin-top: 50px;
+    padding-inline: 20px;
 }
 .produto{
     display: flex;
@@ -29,7 +37,9 @@ main{
     padding: 10px;
     cursor: pointer;
     font-family: 'thin';
-    width: 250px;
+    max-width: 250px;
+    max-height: 330px;
+    height: 100%;
 }
 .produto:hover{
     transform: scale(1.05);
@@ -70,6 +80,7 @@ main{
     );
     font-size: 1em;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .container-info-produto{
@@ -91,6 +102,7 @@ main{
 .product-name-info{
     font-family: 'regular';
     text-align: center;
+    letter-spacing: 1px;
 }
 .description-produto{
     font-family: 'thin';
@@ -107,6 +119,7 @@ main{
 }
 .container-img-info-product img{
     width: 100%;
+    animation: float 3s infinite ease-in;
 }
 .btn-comprar-slim{
     margin: 40px 0;
