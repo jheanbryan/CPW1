@@ -3,7 +3,7 @@ body {
 }
 
 :root {
-    --hero-image: url(../img/hero.jpg);
+    --hero-image: url(../img/imgs-index/hero.jpg);
     --marketing-black-background: radial-gradient(#000, #222111);
     --marketing-white-background: #fff; 
 }
