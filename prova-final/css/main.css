@@ -2,6 +2,11 @@ body{
     background-color: #18181B;
 }
 
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+}
 /*Tabela no Desktop*/
 .table-desktop{
     display: flex;
@@ -20,7 +25,7 @@ thead tr th{
     padding: 20px;
 }
 td{
-    padding: 20px 10px;
+    padding: 30px 10px;
 }
 tbody tr:hover{
     background-color: rgb(23, 23, 28, 0.8);
@@ -70,40 +75,4 @@ tbody tr:hover{
 }
 img{
     width: 100%;
-}
-
-@keyframes side {
-    from{
-        transform: translateX(-100vw);
-    }
-    to{
-        transform: translateX(0);
-        visibility: visible;
-    }
-}
-
-
-
-
-
-@media screen and (max-width: 500px){
-    .table-desktop{
-        display: none;
-    }
-    .table-mobile{
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 380px){
-    .card{
-        flex-direction: column;
-        gap: 10px;
-    }
-    .photo{
-        margin-inline: auto;
-    }
-    .container-text{
-        align-items: center;
-    }
 }

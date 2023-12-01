@@ -1,0 +1,9 @@
+@keyframes side {
+    from{
+        transform: translateX(-100vw);
+    }
+    to{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}

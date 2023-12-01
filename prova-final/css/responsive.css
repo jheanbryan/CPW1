@@ -1,0 +1,21 @@
+@media screen and (max-width: 500px){
+    .table-desktop{
+        display: none;
+    }
+    .table-mobile{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .card{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .photo{
+        margin-inline: auto;
+    }
+    .container-text{
+        align-items: center;
+    }
+}
