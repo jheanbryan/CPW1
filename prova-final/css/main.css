@@ -1,0 +1,39 @@
+body{
+    background-color: #18181B;
+}
+.table1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+table{
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 50px;
+}
+thead tr th{
+    padding: 20px;
+}
+td{
+    padding: 20px 10px;
+}
+tbody tr:hover{
+    background-color: #18181B;
+    color: #fff;
+}
+
+.second-color{
+    background-color: #dcdcdc;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .table1{
+        display: none;
+    }
+}
