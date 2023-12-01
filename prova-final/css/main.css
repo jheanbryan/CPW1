@@ -1,7 +1,9 @@
 body{
     background-color: #18181B;
 }
-.table1{
+
+/*Tabela no Desktop*/
+.table-desktop{
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -21,19 +23,84 @@ td{
     padding: 20px 10px;
 }
 tbody tr:hover{
-    background-color: #18181B;
+    background-color: rgb(23, 23, 28, 0.8);
     color: #fff;
 }
-
 .second-color{
     background-color: #dcdcdc;
 }
 
 
+/*Cards no Mobile*/
+.table-mobile{
+    display: none;
+    flex-direction: column;
+    color: #000;
+}
+.card{
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+    font-size: 1.1rem;
+
+}
+.container-text div{
+    display: flex;
+}
+.container-text div span:first-child{
+    font-weight: bold;
+    margin-inline-end: 5px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+}
+img{
+    width: 100%;
+}
+
+@keyframes side {
+    to{
+        transform: translateX(-500px);
+    }
+    from{
+        transform: translateX(500px);
+
+    }
+}
 
 
-@media screen and (max-width: 600px){
-    .table1{
+
+
+
+@media screen and (max-width: 500px){
+    .table-desktop{
         display: none;
+    }
+    .table-mobile{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .card{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .photo{
+        margin-inline: auto;
+    }
+    .container-text{
+        align-items: center;
     }
 }
