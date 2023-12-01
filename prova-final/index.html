@@ -576,5 +576,16 @@
             </div>
           </section>
       </main>
+
+  <!--Adicionei um pequeno script so para fazer uma animação-->
+  <script>
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach((element, index) => {
+      element.style.animationDelay  = `${index * 0.5}s` ;
+
+    });
+
+  </script>
   </body>
 </html>

@@ -44,6 +44,9 @@ tbody tr:hover{
     margin: 10px;
     border-radius: 20px;
     position: relative;
+    animation: side 0.5s forwards;
+    visibility: hidden;
+    
 }
 .container-text{
     display: flex;
@@ -70,12 +73,12 @@ img{
 }
 
 @keyframes side {
-    to{
-        transform: translateX(-500px);
-    }
     from{
-        transform: translateX(500px);
-
+        transform: translateX(-100vw);
+    }
+    to{
+        transform: translateX(0);
+        visibility: visible;
     }
 }
 
