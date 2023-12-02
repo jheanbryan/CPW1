@@ -6,3 +6,6 @@ Projetos realizados na disciplina de Construção de Páginas Web1 - TSI-IFMS <b
 - [prova n2 - Segunda atividade avaliativa (Flex Box)](https://prova-2-cpw.netlify.app)
 
 - [site-empresa - Modelo de site empresarial para produtos](https://tsi-earnphones.vercel.app/)
+
+- [prova-final - Catálogo de produtos - Avaliação](https://catalogo-de-produtos-nivida.vercel.app)
+  
